@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/cppTest/build",
+  "command": "/usr/bin/g++      -o CMakeFiles/RayTracing.dir/main.cc.o -c /root/cppTest/main.cc",
+  "file": "/root/cppTest/main.cc"
+}
+]

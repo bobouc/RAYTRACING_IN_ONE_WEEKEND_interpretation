@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+4.15.0-158-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/cppTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42775/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42775.dir/build.make CMakeFiles/cmTC_42775.dir/build
+make[1]: Entering directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42775.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_42775.dir/testCCompiler.c.o   -c /root/cppTest/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_42775
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42775.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_42775.dir/testCCompiler.c.o  -o cmTC_42775 
+make[1]: Leaving directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/cppTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1739c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1739c.dir/build.make CMakeFiles/cmTC_1739c.dir/build
+make[1]: Entering directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1739c.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_1739c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_1739c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1739c.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_1739c.dir/CMakeCCompilerABI.c.o  -o cmTC_1739c 
+make[1]: Leaving directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/cppTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98de5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98de5.dir/build.make CMakeFiles/cmTC_98de5.dir/build
+make[1]: Entering directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98de5.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_98de5.dir/testCXXCompiler.cxx.o -c /root/cppTest/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_98de5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98de5.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_98de5.dir/testCXXCompiler.cxx.o  -o cmTC_98de5 
+make[1]: Leaving directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/cppTest/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d111/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d111.dir/build.make CMakeFiles/cmTC_5d111.dir/build
+make[1]: Entering directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5d111.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_5d111.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5d111
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d111.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_5d111.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5d111 
+make[1]: Leaving directory '/root/cppTest/build/CMakeFiles/CMakeTmp'
+
+
