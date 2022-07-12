@@ -25,7 +25,9 @@ int main() {
 
     // World
     hittable_list world;
+    // the centor sphere of the world.
     world.add(make_shared<sphere>(point3(0,0,-1), 0.5));
+    //the backgroud is a big sphere to represent.
     world.add(make_shared<sphere>(point3(0,-100.5,-1), 100));
 
     // Camera

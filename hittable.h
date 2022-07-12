@@ -7,6 +7,7 @@ struct hit_record {
     point3 p;
     vec3 normal;
     double t;
+    //define front face as the face that the ray is pointing to.
     bool front_face;
     inline void set_face_normal(const ray& r, const vec3& outward_normal) {
         front_face = dot(r.direction(), outward_normal) < 0;
